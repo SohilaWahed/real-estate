@@ -23,7 +23,7 @@ function App() {
           {path:'contact' , element:<Contact/>}
       ]
     }
-  ] , {basename:'/real-estate'})
+  ])
   return (
     <RouterProvider router={routes}></RouterProvider>
   )

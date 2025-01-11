@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     include: ['swiper'],
-    base:'real-estate'
+    // base:'real-estate'
   },
 })
