@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base:'/real-estate/',
   optimizeDeps: {
     include: ['swiper'],
-    // base:'real-estate'
   },
 })
