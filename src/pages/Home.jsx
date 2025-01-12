@@ -17,6 +17,7 @@ import img8 from '../assets/images/img8.jpg'
 import img9 from '../assets/images/img9.avif'
 import img10 from '../assets/images/img10.avif'
 import img11 from '../assets/images/img11.avif'
+import img12 from '../assets/images/img12.jpg'
 import img13 from '../assets/images/img13.avif'
 import img14 from '../assets/images/img14.avif'
 import img15 from '../assets/images/img15.jpg'
@@ -137,7 +138,7 @@ export default function Home() {
     {image:img15 , name: 'Seamless Seller Representation', link: 'services' },
     {image:img17 , name: 'Expert Buyer Representation', link: 'services' },
     {image:img16 , name: 'Tailored Rent Services', link: 'service' },
-    {image:'src/assets/images/img18.webp' , name: 'Seamless Seller Representation', link: 'services' },
+    {image:img18 , name: 'Seamless Seller Representation', link: 'services' },
 
   ]
   const clients = [
@@ -195,8 +196,9 @@ export default function Home() {
 
     <>
       {/* first section */}
-      <div className={`h-96 mt-20 mb-4 w-full rounded-[25px] bg-[url('src/assets/images/img12.jpg')] md:bg-[url('src/assets/images/img13.avif')] md:bg-left-bottom lg:bg-center bg-cover flex flex-col items-center relative`}>
-        <p className='text-white text-4xl text-center font-black absolute top-1/3'>Find Your Dream <br /> Living Room</p>
+      <div className={`h-96 mt-20 mb-4 w-full rounded-[25px] flex flex-col items-center relative`}>
+        <img src={img12} alt="" className='w-full h-full rounded-[25px]' />
+        {/* <p className='text-white text-4xl text-center font-black absolute top-1/3'>Find Your Dream <br /> Living Room</p> */}
         <div className='py-4 px-4 shadow rounded-full w-3/4 bg-white flex justify-around items-center flex-wrap md:flex-nowrap gap-2 absolute bottom-0 translate-y-2/4 '>
           <select
             id="optionsPay"
