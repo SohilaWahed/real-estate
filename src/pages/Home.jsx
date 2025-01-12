@@ -6,11 +6,23 @@ import "swiper/css/navigation";
 import { Link } from 'react-router-dom';
 import Counter from '../component/Counter';
 import Rate from '../component/Rate';
+import img1 from '../assets/images/img1.avif'
 import img2 from '../assets/images/img2.jpg'
+import img3 from '../assets/images/img3.jpg'
+import img4 from '../assets/images/img4.jpg'
+import img5 from '../assets/images/img5.jpg'
+import img6 from '../assets/images/img6.jpg'
+import img7 from '../assets/images/img7.jpg'
+import img8 from '../assets/images/img8.jpg'
+import img9 from '../assets/images/img9.avif'
 import img10 from '../assets/images/img10.avif'
 import img11 from '../assets/images/img11.avif'
 import img13 from '../assets/images/img13.avif'
-
+import img14 from '../assets/images/img14.avif'
+import img15 from '../assets/images/img15.jpg'
+import img16 from '../assets/images/img16.jpg'
+import img17 from '../assets/images/img17.avif'
+import img18 from '../assets/images/img18.webp'
 
 
 export default function Home() {
@@ -20,7 +32,7 @@ export default function Home() {
   const [city, setCity] = useState('')
   const houses = [
     {
-      image: "src/assets/images/img1.avif",
+      image: img1,
       type: "Modern House",
       price: "$39,000",
       bedrooms: 5,
@@ -28,7 +40,7 @@ export default function Home() {
       area: "285m²",
     },
     {
-      image: "src/assets/images/img14.avif",
+      image: img14,
       type: "Luxury House",
       price: "$42,000",
       bedrooms: 5,
@@ -36,7 +48,7 @@ export default function Home() {
       area: "285m²",
     },
     {
-      image: "src/assets/images/img3.jpg",
+      image: img3,
       type: "Classic House",
       price: "$52,000",
       bedrooms: 5,
@@ -44,7 +56,7 @@ export default function Home() {
       area: "285m²",
     },
     {
-      image: "src/assets/images/img4.jpg",
+      image: img4,
       type: "Modern House",
       price: "$39,000",
       bedrooms: 5,
@@ -52,7 +64,7 @@ export default function Home() {
       area: "285m²",
     },
     {
-      image: "src/assets/images/img5.jpg",
+      image: img5,
       type: "Luxury House",
       price: "$42,000",
       bedrooms: 5,
@@ -60,7 +72,7 @@ export default function Home() {
       area: "285m²",
     },
     {
-      image: "src/assets/images/img6.jpg",
+      image: img6,
       type: "Classic House",
       price: "$52,000",
       bedrooms: 5,
@@ -68,7 +80,7 @@ export default function Home() {
       area: "285m²",
     },
     {
-      image: "src/assets/images/img7.jpg",
+      image: img7,
       type: "Modern House",
       price: "$39,000",
       bedrooms: 5,
@@ -76,7 +88,7 @@ export default function Home() {
       area: "285m²",
     },
     {
-      image: "src/assets/images/img8.jpg",
+      image: img8,
       type: "Luxury House",
       price: "$42,000",
       bedrooms: 5,
@@ -84,13 +96,14 @@ export default function Home() {
       area: "285m²",
     },
     {
-      image: "src/assets/images/img9.avif",
+      image: img9,
       type: "Classic House",
       price: "$52,000",
       bedrooms: 5,
       bathrooms: 2,
       area: "285m²",
-    }]
+    }
+  ]
   const counters = [
     { name: 'Rent House', target: 6675, step: 267 },
     { name: 'State', target: 25, step: 25 },
@@ -117,14 +130,13 @@ export default function Home() {
       link: 'listings'
     }]
   const services = [
-    {image:'src/assets/images/img15.jpg' , name: 'Expert Buyer Representation', link: 'services' },
-    {image:'src/assets/images/img16.jpg' , name: 'Seamless Seller Representation', link: 'services' },
-    {image:'src/assets/images/img17.avif' , name: 'Tailored Rent      Services', link: 'service' },
-    {image:'src/assets/images/img16.jpg' , name: 'Seamless Seller Representation', link: 'services' },
-    {image:'src/assets/images/img18.webp' , name: 'Expert Buyer Representation', link: 'services' },
-    {image:'src/assets/images/img15.jpg' , name: 'Seamless Seller Representation', link: 'services' },
-    {image:'src/assets/images/img16.jpg' , name: 'Tailored Rent Services', link: 'service' },
-    {image:'src/assets/images/img17.avif' , name: 'Expert Buyer Representation', link: 'services' },
+    {image:img15 , name: 'Expert Buyer Representation', link: 'services' },
+    {image:img17 , name: 'Tailored Rent      Services', link: 'service' },
+    {image:img16 , name: 'Seamless Seller Representation', link: 'services' },
+    {image:img18 , name: 'Expert Buyer Representation', link: 'services' },
+    {image:img15 , name: 'Seamless Seller Representation', link: 'services' },
+    {image:img17 , name: 'Expert Buyer Representation', link: 'services' },
+    {image:img16 , name: 'Tailored Rent Services', link: 'service' },
     {image:'src/assets/images/img18.webp' , name: 'Seamless Seller Representation', link: 'services' },
 
   ]
